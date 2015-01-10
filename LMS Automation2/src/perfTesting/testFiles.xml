@@ -1,0 +1,55 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test runs" parallel="tests" thread-count="10">
+	<test name="T_01">
+		<classes>
+			<class name="performanceTesting.NewTest1"></class>
+		</classes>
+	</test>
+	<test name="T_02">
+		<classes>
+			<class name="performanceTesting.NewTest2"></class>
+		</classes>
+	</test>
+	<test name="T_03">
+		<classes>
+			<class name="performanceTesting.NewTest3"></class>
+		</classes>
+	</test>
+	<test name="T_04">
+		<classes>
+			<class name="performanceTesting.NewTest4"></class>
+		</classes>
+	</test>
+	<test name="T_05">
+		<classes>
+			<class name="performanceTesting.NewTest5"></class>
+		</classes>
+	</test>
+	<test name="T_06">
+		<classes>
+			<class name="performanceTesting.NewTest6"></class>
+		</classes>
+	</test>
+	<test name="T_07">
+		<classes>
+			<class name="performanceTesting.NewTest7"></class>
+		</classes>
+	</test>
+	<test name="T_08">
+		<classes>
+			<class name="performanceTesting.NewTest8"></class>
+		</classes>
+	</test>
+	<test name="T_09">
+		<classes>
+			<class name="performanceTesting.NewTest9"></class>
+		</classes>
+	</test>
+	<test name="T_10">
+		<classes>
+			<class name="performanceTesting.NewTest10"></class>
+		</classes>
+	</test>
+</suite>
+
+
