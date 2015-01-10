@@ -31,7 +31,7 @@ public class GlobalDecl
 	public int TotalPages, b, c;
 	//public String baseUrl = "http://50.116.0.186:81/";
 	public String baseUrl = "http://http://50.116.0.186:81/";
-	public String Username = "praveen@gyanwebsolutions.com";
+	public String Username = "";
 	//public String Username = "12345@gmail.com";
 	public String Password = "";
 
