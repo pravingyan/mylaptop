@@ -33,7 +33,7 @@ public class GlobalDecl
 	public String baseUrl = "http://http://50.116.0.186:81/";
 	public String Username = "praveen@gyanwebsolutions.com";
 	//public String Username = "12345@gmail.com";
-	public String Password = "Prison@123456";
+	public String Password = "";
 
 	//************ COURSE NAME**************************************************************
 	//public String CourseName = "Test course one";
