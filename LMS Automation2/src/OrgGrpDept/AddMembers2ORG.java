@@ -11,7 +11,7 @@ import jxl.write.biff.RowsExceededException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverBackedSelenium;
+//import org.openqa.selenium.WebDriverBackedSelenium;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -27,6 +27,7 @@ import org.testng.annotations.Test;
 import GlobalVariables.GlobalDecl;
 
 import com.thoughtworks.selenium.Selenium;
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
 
 public class AddMembers2ORG {
 	public static WebDriver driver;
